@@ -1,0 +1,19 @@
+AssignUnits:
+ Start:
+   increased range of random units neutral AI can receive from 1-11 to 1-25
+ AssignPlayer:
+   looping construct & boolean variable used to test if a sector had already been allocted was replaced with a built-in Contains method
+ P1TurnUnits and P2TurnUnits abstracted to AllocateNewUnits, and replaced by AllocatePlayer1NewUnits and AllocatePlayer2NewUnits
+ SpawnPVC added
+
+ConflictResolution:
+ attackingSector, sectorsAdjacentToAttackingSector, and defendingSector all changed from type GameObject to type Section
+ ResolveConflict:
+   bool conflictOccurs added to support moving units between friendly sectors without ending turn
+
+Section:
+ AttOptions changed from type GameObject[] to type Section[]
+ added PVCHere and numberOfNewUnitsPerAdjacentSector fields
+ Ensured only sectors of the current player could be selected
+ Added spawnPVC method
+ removed landmark effects and sector names, made every sector a landmark

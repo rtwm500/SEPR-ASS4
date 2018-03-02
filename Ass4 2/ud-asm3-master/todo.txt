@@ -1,0 +1,53 @@
+[SAM] Re-do unit assignment
+ *DONE*
+[SAM] Get rid of unit assignment buttons
+ *DONE*
+[LUKE] Loading / Saving
+
+[OLLIE] Move Demo Checkbox
+
+[DAVID] 3 human players mode
+
+[OLLIE] PVC minigame
+
+[BEN] Complete timer *DONE*
+[BEN] Implement PVC *DONE*
+[SAM] Comment changes
+ *DONE*
+[DAVID] AI Section Flashing 
+*DONE*
+[LUKE] UI Tweaks, Changes and Updates
+
+
+[] DOCS
+
+	[] Website
+		[] All Assessment 3 Deliverables
+		[] Inherited GUI and Testing Reports
+		[] Executable
+		[Ben] Test Plan & Results
+		[Sam] User Manual
+	[] Change Report
+	
+		[Sam]	 Formal Approaches
+		[Martin] GUI Report
+	
+		[Ben]	 Testing Report
+
+		[Ben]	 (Use ours) Risk Assessment
+		
+		[Martin] (Use ours) Methods
+
+
+
+	[] Implementation
+		[David]	 Demo Mode
+		[Luke]	 Main Menu
+		[Luke]	 Save & Load
+		[David]	 Neural AI
+		[David]	 3-Player Mode
+		[Martin] Chance Cards
+		[Ben]	 PVC
+		[Ollie]	 Minigame
+		[Sam]	 Sudden Death
+		[Sam]	 Changes to Code
